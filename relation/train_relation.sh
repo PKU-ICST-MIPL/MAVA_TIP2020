@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=2 python train.py --data_path ../data/ --data_name flickr --vocab_path ../data/vocab/ --logger_name models/ --model_name models/ --max_violation --bi_gru --lambda_softmax=4 --num_epochs=20 --lr_update=10 --learning_rate=.0005 --log_step=50 --batch_size=100
